@@ -1,9 +1,0 @@
-5.
-In the first example x outputs 3 to the screen.
-
-In the second example x outputs an error to the screen. The error states that there is an undefined local variable x on line 16 in the file. 
-
-This is because x has only been defined inside the do...end block, is therefore a local variable, and cannot be accessed by puts. 
----------------------------------------------------
-
-6. The error message tells me that there is an undefined local variable or method known as shoes. on line 16 of irb
