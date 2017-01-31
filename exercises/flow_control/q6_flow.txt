@@ -1,0 +1,13 @@
+When you run the following code...
+
+    def equal_to_four(x)
+      if x == 4
+        puts "yup"
+      else
+        puts "nope"
+    end
+
+    equal_to_four(5)
+You get the following error message...
+
+this error is regarding the lack of an 'end' keyword in the code. it was either forgotten in the if statement or when defining the method. either way if you just add another end right below the currently existing one it will work fine. 
