@@ -1,0 +1,3 @@
+For regular ruby I honestly just like the ruby-docs, I find that its no nonsense and if I want more information or examples than provided I just go to stack overflow. 
+
+From my limited experience with rails (basically nonexistant) I like the looks of http://api.rubyonrails.org/ seems slick and well organized. 
