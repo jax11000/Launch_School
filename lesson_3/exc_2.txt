@@ -1,0 +1,42 @@
+Question 1
+Answer
+ages.key?('spot')
+
+Question 2
+Answer
+.capitalize!
+.swapcase!
+.downcase!
+.upcase!
+
+Question 3
+Answer
+ages.merge!(additional_ages
+
+Question 4
+Answer 
+advice.include?("Dino")
+
+Question 5
+Answer
+flinstones = %w(Fred, Barney, Wilma, Betty, BamBam etc...)
+
+Question 6
+Answer
+flinstones.push('dino')
+
+Question 7
+Answer
+flinstones.concat(%w(Dino etc))
+
+Question 8
+Answer
+advice.slice(0, advice.index('house'))
+
+Question 9
+Abswer
+statement.scan('t').count
+
+Question 10
+Answer
+title.center(40)

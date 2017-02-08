@@ -1,0 +1,24 @@
+
+Question 1
+Answer
+it will return nil. the greeting set inside the block will be outside the scope of the variable call. 
+can go up, cant go down. 
+
+Question 2
+Answer
+output is hi there.
+informal greeting references the original object that greeting is pointing at. << modifies the object that called it
+and since informal greeting is the reference to greeting, greeting is now changed. (example of mutatiing the caller?)
+
+Question 3
+Answer
+the first prints out the values assigned outside the method because the variables in the method are new variables the method has
+created, not changes to the original object
+the second is the same because as before it is not changing the original object being called in the parameter, these are new.
+the third will change because gsub! changes the original object it has been called upon in the method. 
+
+Question 4
+Answer
+check the size of the dot seperated words with .size
+ben is returning true after the break even when a false conidtion is met. you must account for a false condition instead of breaking
+

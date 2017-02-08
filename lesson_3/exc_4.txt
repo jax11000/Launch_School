@@ -1,0 +1,27 @@
+
+Question 1
+answer
+the ids change when the values change
+
+Question 2
+Answer
+ids change with each method because it is technically a different variable due to method variable scope
+
+Question 3
+Answer
+the string does not concatenate the rutebaga because in the method it is reassigned to rutebaga as a different variable. 
+the method forgets about the original parameter given and treats this new string as the 'true' string. 
+while the array can hold a number of elements and the << is simply adding more to the original parameter passed in
+it is not changing the initial parameter because ruby keeps using the same element we passed in adding more elements to it. 
+
+
+Question 4
+Answer
+because in the method the string is now having << called on it, it is using the original object and adding to it
+rather than creating an entirely new object due to reassignment. while the array is now being set = to the new
+elements being added, the original object has now been forgotten about by the method and because of method variable
+scope it will not be displayed on the outside of the method. instead it will be the original object given. 
+
+Question 5
+Answer
+ternary operator

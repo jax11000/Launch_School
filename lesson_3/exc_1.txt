@@ -1,0 +1,49 @@
+
+Question 1
+Answer 
+1
+2
+2
+3
+
+Question 2
+Answer
+1 - this is not equal to, you should use this in conditional statements
+2 - to signify the opposite of this object
+3 - this is to represent that this method is destructive
+4 - ternary operator
+5 - this is to represent a conditional statment 
+6 - used to turn object into thei boolean equivalent
+
+Question 3
+advice = "Few things in life are as important as house training your pet dinosaur."
+Answer
+advice.gsub! 'important', 'urgent'
+
+Question 4
+Answer
+the first deletes the element at index 1
+the second deletes the element with the value 1
+
+Question 5
+Answer
+(10..100).cover?(42)
+
+Question 6
+famous_words = "seven years ago..."
+Answer
+"Four score and " + famous_words
+famous_words.prepend('Four score and ')
+
+Question 7
+Answer
+42 
+
+Question 8
+Answer
+flinstones.flatten!
+
+Question 9
+Answer
+flinstones.assoc('barney')
+

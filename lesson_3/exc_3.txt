@@ -1,0 +1,45 @@
+Question 1
+Answer 
+10.times {|number| puts (' ' * number) + 'The Flinstones Rock!'}
+
+Question 2
+Answer
+cant add a string and a fixnum, you can convert either the string to an integer or the interger to a string. 
+
+Question 3
+Answer
+while dividend > 0 do 
+ divisors << number / dividend if number % dividend == 0
+  dividend -= 1
+end
+bonus to see if the result is an integer
+bonus to return the divisors array 
+
+Question 4
+Answer
+yes there is no input array in the first method. 
+
+Question 5
+Answer
+Limit is out of the scope of the method. you must initialize this variable inside the method. (make it an argument)
+
+Question 6
+Answer
+add a third parameter that adds what you would like to, to both the string and the array
+(their answer, change the << for the arrat to a += )
+
+Question 7
+Answer
+34
+
+Question 8
+Answer
+this method will change the hash, because ruby passes the object id of each item rather thatn the value of the parameter. 
+
+Question 9
+Answer
+paper
+
+Question 10
+Answer 
+no
